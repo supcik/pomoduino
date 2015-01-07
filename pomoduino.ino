@@ -68,7 +68,7 @@ void setup() {
 }
 
 void loop() {
-    static unsigned long t0 = millis() - (14L*1000*60 + 1000L*45); // start time
+    static unsigned long t0 = millis(); // start time
     static int ring_done = 0;
 #ifdef DO_TICK
     static int tick_done = 0;
